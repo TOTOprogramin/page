@@ -1,0 +1,119 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/secretaria-sujetando-boligrafo_1098-3215.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+   
+    background-color: #a4a4a4;
+    opacity: 0.5;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    background-attachment:scroll;
+}
+
+main {
+    padding: 20px;
+}
+
+.tarifas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarifa {
+    opacity: 0.8;
+    background-color: #fff;
+    height: 500px;
+    width: calc(300px);
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.tarifa h2 {
+    margin-top: 0;
+}
+
+.tarifa img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.tarifa button {
+    border-radius: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.tarifa button:hover {
+    background-color: #0a5d0f;
+}
+
+.tarifa button a {
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.personalizado {
+    opacity: 0.5;
+    padding: 0;
+    margin: 0;
+    background-color: #ffaa00;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.personalizado p {
+    text-align: center;
+    font-size: 35px;
+    text-align: start !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.personalizado button {
+    
+    border-radius: 15px;
+    padding: 10px;
+    margin: 25px;
+    background-color: #104e14;
+    cursor: pointer;
+}
+
+.personalizado button a {
+    opacity: 10 !important;
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+}
+
+.personalizado button a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.personalizado button:hover {
+    color: black !important;
+
+
+}
